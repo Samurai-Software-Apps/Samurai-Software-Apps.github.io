@@ -134,9 +134,12 @@
     margin-left: auto
   }
   
-  @media (min-width: 576px) {
-    .container {
-      max-width:540px
+  @media (max-width: 576px) {
+    .mockup{
+      min-width:70px;
+    }
+    .right, .col{
+      text-align:center !important;
     }
   }
   
